@@ -1,0 +1,3 @@
+query_1=(SELECT customers.last_name, customers.phone, company_orders.id 
+FROM customers JOIN company_orders 
+ON customers.id=company_orders.customer_id)
